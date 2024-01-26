@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experince">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Mechanical Engineer</p>
+            <h1>Hi! I’m <span>Muhammad</span><br></h1>
+            <h1>Let's Work Together</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/ibr 2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My engineering journey is marked by a relentless pursuit of innovation and efficiency. I thrive in environments that challenge conventional thinking and require novel approaches. My portfolio not only showcases my technical skills but also demonstrates my ability to lead projects, collaborate with diverse teams, and drive sustainable engineering practices.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('soft skills')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('rec 1')">Rec 1</p>
+                    <p class="tab-links" onclick="opentab('rec 2')">Rec 2</p>
+                    <p class="tab-links" onclick="opentab('rec 3')">Rec 3</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><h2>CAD Software</h2></span><br>Solidworks, CATIA, Fusion 360, AutoCAD, REVIT, Creo</li>
+                        <li><span><h2>Utility Software</h2></span><br>MATLAB, LabVIEW, RStudio, Office 365 Suite</li>
+                        <li><span><h2>Fluid Simulation Software</h2></span><br>Ansys, Star-CCM+</li>
+                        <li><span><h2>Hardware</h2></span><br>Raspberry Pi, Arduino, Femto F3 Flight Controller</li>
+                        <li><span><h2>Programming</h2></span><br>Python, Java, C, HTML, CSS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="soft skills">
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li><span><h2>Soft Skills</h2></span><br></li>
+                        <li>Effective team player, skilled in collaborating with colleagues.</li><br>
+    <li>Strong communication abilities in both verbal and written forms.</li><br>
+    <li>Highly adaptable, swiftly adjusting to new technologies and environments.</li><br>
+    <li>Meticulous attention to detail, ensuring accuracy in work.</li><br>
+    <li>Proficient in project management, ensuring timely and efficient completion of projects.</li><br>
+    <li>Capable leader, adept at guiding teams towards achieving goals.</li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><h2>Lassonde School of Engineering, York University (2019 - 2024)</h2></span><br>Honours Bachelor of Engineering in Mechanical Engineering</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="rec 1">
+                    <ul>
+                        <li><span><h2>Mat Khaloobagheri former Supervisor at Acetake Group</h2></span><br>Muhammad is an exceptional individual who can be relied upon in any situation. His congenial and helpful attitude makes him a valuable team player. He works effectively with his colleagues, fostering a collaborative environment. Muhammad is quick to show appreciation and acts promptly on feedback from supervisors, demonstrating his openness and adaptability. His open-mindedness, coupled with a confident demeanor, makes him an asset in any professional setting. His contributions are not only impactful but also inspire those around him.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="rec 2">
+                    <ul>
+                        <li><span><h2>Song Gao former Supervisor at Pratt & Whiteny</h2></span><br>Muhammad excels in his work, demonstrating a strong sense of pride and a remarkable ability to learn quickly. He is known for his reliability in various situations, along with a congenial and helpful nature that makes him an excellent team player. Efficient in collaborating with colleagues, Muhammad promptly implements suggestions from supervisors, showing his open-mindedness and confidence. His thoughtfulness and innovative thinking in problem-solving stand out, proving his capability to take initiative and think outside the box. Muhammad's unique combination of skills and qualities make him an invaluable asset to any team.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="rec 3">
+                    <ul>
+                        <li><span><h2>Larry McGrath former Supervisor at Canadian Nuclear Labrotories</h2></span><br>Muhammad exhibits an exceptional level of interest and enthusiasm for his work. He often takes initiative, showing a remarkable capacity for learning quickly and applying sound judgment in his decisions. Reliable in various situations, his congenial and cooperative nature makes him an effective collaborator with his colleagues. Open to feedback, he gracefully accepts suggestions and criticism from supervisors. Muhammad's tenure at the Energy & Infrastructure Management branch was highly valued, and his presence and contributions were a pleasure to the team.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Experince---------------- -->
+<div id="Experince">
+    <div class="container">
+        <h1 class="sub-title">My Work Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/nuclear.png">
+                <div class="layer">
+                    <h2>Canadian Nuclear Laboratories</h2><br>
+                    <p>A leader in nuclear science and technology, offering unique capabilities and solutions across a wide range of industries. Click icon to learn more.</p>
+                    <a>
+                        <a href="cnl.html">
+                        <img src="images/Asset_1.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/f22.png">
+                <div class="layer">
+                    <h2>Pratt & Whitney</h2><br>
+                    <p>A world leader in the design, manufacture, and service of aircraft engines and auxiliary power units. Click icon to learn more.</p>
+                    <a>
+                        <a href="pratt.html">
+                        <img src="images/Pratt__Whitney_logo.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/weld.jpg">
+                <div class="layer">
+                    <h2>Acetake Group</h2><br>
+                    <p>A specialized engineering design and consulting firm for clients in the industrial and manufacturing industries. Click icon to learn more.</p>
+                    <a>
+                        <a href="acetake.html">
+                        <img src="images/Asset_3.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Rocket.png">
+                <div class="layer">
+                    <h2>Rocket Engine</h2><br>
+                    <p>Project focused on designing a rocket engine using CAD software.</p>
+                    <a>
+                        <a href="rocket.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/f1 car 2.png">
+                <div class="layer">
+                    <h2>F1 Car</h2><br>
+                    <p>Final year project dedicated to the development of a Formula 1 vehicle.</p>
+                    <a>
+                        <a href="f1.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Cube sat 2.png">
+                <div class="layer">
+                    <h2>ESSENCE CubeSat</h2><br>
+                    <p>University initiative focused on designing a CubeSat for space operations.</p>
+                    <a>
+                        <a href="cubesat.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Plane 2.png">
+                <div class="layer">
+                    <h2>RC Plane</h2><br>
+                    <p>Project involving the creation of a custom remote-controlled plane.</p>
+                    <a>
+                        <a href="plane.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Titan.png">
+                <div class="layer">
+                    <h2>Titan Submersible</h2><br>
+                    <p>Course project centered on assessing the design of the a Titan submersible.</p>
+                    <a>
+                        <a href="titan.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Pressure vessel.png">
+                <div class="layer">
+                    <h2>Pressure Vessel</h2><br>
+                    <p>Client requested project for industrial sector. Acetake contracted.</p>
+                    <a>
+                        <a href="pressure vessel.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/steel beam.png">
+                <div class="layer">
+                    <h2>Steel Beams</h2><br>
+                    <p>Project commissioned by a client for the industrial sector. Acetake contracted.</p>
+                    <a>
+                        <a href="steel beam.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Mask.png">
+                <div class="layer">
+                    <h2>COVID Mask</h2><br>
+                    <p>CAD course assignment focused on designing masks for COVID-19 protection.</p>
+                    <a>
+                        <a href="mask.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Can Crusher.png">
+                <div class="layer">
+                    <h2>Can Crusher</h2><br>
+                    <p>Third-year design project aimed at creating a can crushing system.</p>
+                    <a>
+                        <a href="can crusher.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Carriage.png">
+                <div class="layer">
+                    <h2>Carriage</h2><br>
+                    <p>Second-year design project aimed at creating a carriage to aid remote communities.</p>
+                    <a>
+                        <a href="carriage.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/airfoil 2.png">
+                <div class="layer">
+                    <h2>Airfoil Simulation</h2><br>
+                    <p>Project for evaluating the aerodynamic performance of an RC plane wing.</p>
+                    <a>
+                        <a href="airfoil.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/titan sim 3.png">
+                <div class="layer">
+                    <h2>Titan Simulation</h2><br>
+                    <p>Project for evaluating the hydrodynamic performance of the Titan submersible.</p>
+                    <a>
+                        <a href="titan sim.html">
+                        <img src="images/link 2.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/engine.jpg">
+                <div class="layer">
+                    <h2>Engine Project</h2><br>
+                    <p>Engine modification project for student club.</p>
+                        <a href="engine.html" class="link-container">
+                            <img src="images/link 2.svg" class="link-image">
+                        </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/face.jpg">
+                <div class="layer">
+                    <h2>Facial Recognition</h2><br>
+                    <p>Facial recognition system used for door lock.</p>
+                        <a href="face.html" class="link-container">
+                        <img src="images/link 2.svg" class="link-image">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rover.jpeg">
+                <div class="layer">
+                    <h2>Rover Project</h2><br>
+                    <p>Robotic rover development project for student club.</p>
+                        <a href="rover.html" class="link-container">
+                        <img src="images/link 2.svg" class="link-image">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/range.jpg">
+                <div class="layer">
+                    <h2>Range Detector</h2><br>
+                    <p>Course project aimed at detecting set distances.</p>
+                        <a href="range.html" class="link-container">
+                        <img src="images/link 2.svg" class="link-image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------Reports---------------- -->
+<div id="Reports">
+    <div class="container">
+        <h1 class="sub-title">Technical Reports</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/rep 1.png">
+                <div class="layer">
+                    <a href="images/Essence Cube Satellite Report.pdf" download>
+                        <img src="images/down.svg" alt="Download">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rep 2.png">
+                <div class="layer">
+                    <a href="images/MECH 4402 Project Report .pdf" download>
+                        <img src="images/down.svg" alt="Download">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rep 3.png">
+                <div class="layer">
+                    <a href="images/MECH3409_GroupC_FinalReport.pdf" download>
+                        <img src="images/down.svg" alt="Download">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright © Muhammad.<i class="fas fa-heart"></i></p>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
